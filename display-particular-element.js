@@ -5,7 +5,6 @@ let person={
     aim:"software engineer",
     gender:"male",
     isAlive:true
-
 }
 console.log(person.nam);
 console.log(person['isAlive']);
