@@ -9,7 +9,7 @@ let c = prompt("Enter the third number: ");
 // calculate discriminant
 let discriminant = b * b - 4 * a * c;
 
-// condition for real and different roots
+// condition for real and different root
 if (discriminant > 0) {
     root1 = (-b + Math.sqrt(discriminant)) / (2 * a);
     root2 = (-b - Math.sqrt(discriminant)) / (2 * a);

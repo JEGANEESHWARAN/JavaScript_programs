@@ -6,7 +6,7 @@ let currentDate = new Date();
 let day = currentDate.getDate();
 
 // get the month from the date
-// + 1 because month starts from 0
+// + 1 because month starts from 
 let month = currentDate.getMonth() + 1;
 
 // get the year from the date
@@ -21,7 +21,6 @@ if (day < 10) {
 if (month < 10) {
     month = '0' + month;
 }
-
 // display in various formats
 const formattedDate1 = month + '/' + day + '/' + year;
 console.log(formattedDate1);

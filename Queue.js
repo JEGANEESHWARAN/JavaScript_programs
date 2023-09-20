@@ -19,13 +19,11 @@ class Queue {
         this.headIndex++;
         return removedElement;
     }
-
     //shows the head element of the  queue
     peek() {
         let peekElement = this.items[this.headIndex];
         return peekElement;
     }
-
     //shows the number of items in queue
     size() {
         return this.tailIndex - this.headIndex;
